@@ -1,0 +1,28 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python-кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# База данных
+*.db
+*.sqlite3
+
+# Переменные окружения
+.env
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Не коммитим локальные текстовые заметки, но requirements.txt нужен
+*.txt
+!requirements.txt
+
+# Frontend (разрабатывается отдельно, не коммитим в этот репозиторий)
+frontend/
